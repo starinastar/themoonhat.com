@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 const API_ENDPOINT =
-  "https://https://jsonplaceholder.typicode.com/todos/1";
+  "https://jsonplaceholder.typicode.com/todos/1";
 
 exports.handler = async (event, context) => {
   return fetch(API_ENDPOINT)
